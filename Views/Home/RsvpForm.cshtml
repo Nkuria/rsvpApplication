@@ -1,4 +1,5 @@
-﻿@{
+﻿@model rsvpApplication.Models.GuestResponse
+@{
 Layout = null;
 }
 <!DOCTYPE html>
@@ -8,8 +9,28 @@ Layout = null;
 <title>RsvpForm</title>
 </head>
 <body>
-<div>
-This is the RsvpForm.cshtml View
-</div>
+<form asp-action="RsvpForm" method="post">
+    <div>
+        <label asp-for="Name">Your Name: </label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label asp-for="Email">Your Email:</label>
+        <input asp-for="Email"/>
+    </div>
+    <div>
+        <label asp-for="Phone">Your phone:</label>
+        <input asp-for="Phone" />
+    </div>
+    <div>
+        <label> Will You Attend</label>
+        <select asp-for="WillAttend">
+            <option value="">Choose An Option</option>
+            <option value="true">Yes I'll Attend</option>
+            <option value="false">No I Won't Make It</option>
+        </select>
+    </div>
+    <button type="submit">RSVP</button>
+</form>
 </body>
 </html>

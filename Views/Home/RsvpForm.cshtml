@@ -14,27 +14,27 @@ Layout = null;
     <div asp-validation-summary="All">
 
     </div>
-    <div>
+    <div class="formGroup">
         <label asp-for="Name">Your Name: </label>
-        <input asp-for="Name" />
+        <input asp-for="Name" class="inputField"/>
     </div>
-    <div>
+    <div class="formGroup">
         <label asp-for="Email">Your Email:</label>
-        <input asp-for="Email"/>
+        <input asp-for="Email" class="inputField"/>
     </div>
-    <div>
+    <div class="formGroup">
         <label asp-for="Phone">Your phone:</label>
-        <input asp-for="Phone" />
+        <input asp-for="Phone" class="inputField" />
     </div>
-    <div>
+    <div class="formGroup">
         <label> Will You Attend</label>
-        <select asp-for="WillAttend">
+        <select asp-for="WillAttend" class="inputField">
             <option value="">Choose An Option</option>
             <option value="true">Yes I'll Attend</option>
             <option value="false">No I Won't Make It</option>
         </select>
-    </div>
-    <button type="submit">RSVP</button>
+    </di>
+    <button type="submit" class="btn">RSVP</button>
 </form>
 </body>
 </html>

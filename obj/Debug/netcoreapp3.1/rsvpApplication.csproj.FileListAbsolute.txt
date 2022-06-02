@@ -37,3 +37,5 @@ C:\Users\Nick\Desktop\C# projects\rsvpApplication\obj\Debug\netcoreapp3.1\rsvpAp
 C:\Users\Nick\Desktop\C# projects\rsvpApplication\obj\Debug\netcoreapp3.1\rsvpApplication.genruntimeconfig.cache
 C:\Users\Nick\Desktop\C# projects\rsvpApplication\obj\Debug\netcoreapp3.1\rsvpApplication.csproj.CopyComplete
 C:\Users\Nick\Desktop\C# projects\rsvpApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\RsvpForm.cshtml.g.cs
+C:\Users\Nick\Desktop\C# projects\rsvpApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\Thanks.cshtml.g.cs
+C:\Users\Nick\Desktop\C# projects\rsvpApplication\obj\Debug\netcoreapp3.1\Razor\Views\Home\ListResponses.cshtml.g.cs

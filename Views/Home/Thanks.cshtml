@@ -1,0 +1,26 @@
+﻿@model rsvpApplication.Models.GuestResponse
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width" />
+<title>Thanks</title>
+</head>
+<body>
+    <div>
+        <h1>
+            Thank You, @Model.Name!
+        </h1>
+        @if(Model.WillAttend == true)
+        {
+            @:We are glad to have you join us
+        }else
+        {
+            @:We are sorry you can't Make it
+        }
+    </div>
+    Click<a asp-action="ListResponses"> Here</a> to see who is coming
+    </body>
+</html>
